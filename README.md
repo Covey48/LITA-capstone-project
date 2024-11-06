@@ -47,6 +47,7 @@ This is where I inputed some basic line of functions and queries like;
 ~~~
             MS EXCEL
     =AVERAGEIF(D2:D50001,D2,H2:H50001)
+ =SUMIF(C2:C50001,C2,H2:H50001)
 ~~~
 
 ~~~
@@ -91,5 +92,6 @@ WHEN OrderDate BETWEEN '2024-06-01' AND '2024-08-31'
 THEN 1 ELSE 0 END) = 0
 ~~~
 
-
-~~~ 
+### DATA VISUALIZATION
+------------
+I used pivot tables and charts to summarize total sales by product, region, and month
