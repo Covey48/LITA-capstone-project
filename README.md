@@ -96,3 +96,4 @@ THEN 1 ELSE 0 END) = 0
 ------------
 I used pivot tables and charts to summarize total sales by product, region, and month
 
+![image alt](https://github.com/Covey48/LITA-capstone-project/blob/c843ff8a494391d8c300e1ae7919bfd12d3c2e98/Screenshot%20(10).png)
