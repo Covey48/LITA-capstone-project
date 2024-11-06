@@ -1,7 +1,7 @@
 # LITA-capstone-project
 ---
 
-### PROJECT TITLE: SALES PERFORMANCE ANALYSIS FOR A RETAIL SORE
+## PROJECT TITLE: SALES PERFORMANCE ANALYSIS FOR A RETAIL SORE
 ---
 
 ### PROJECT OVERVIEW
@@ -40,3 +40,10 @@ This involved the exploring of the data to answer some questions about the data 
 - the percentage of total sales contributed by each region.
 - identify products with no sales in the last quarter.
 
+###  DATA ANALYSIS
+---
+This is where I inputed some basic line of functions and queries like;
+
+~~~ MS EXCEL
+    =AVERAGEIF(D2:D50001,D2,H2:H50001)
+~~~
