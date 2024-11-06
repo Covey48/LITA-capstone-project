@@ -96,4 +96,3 @@ THEN 1 ELSE 0 END) = 0
 ------------
 I used pivot tables and charts to summarize total sales by product, region, and month
 
-
