@@ -44,6 +44,52 @@ This involved the exploring of the data to answer some questions about the data 
 ---
 This is where I inputed some basic line of functions and queries like;
 
-~~~ MS EXCEL
+~~~
+            MS EXCEL
     =AVERAGEIF(D2:D50001,D2,H2:H50001)
 ~~~
+
+~~~
+        SQL
+
+select * from [dbo].[LITA CAPSTONE PROJECT 11]
+
+SELECT Product, SUM (SalesPrice) AS TOTALSALES FROM [dbo].[LITA CAPSTONE PROJECT 11]
+GROUP BY Product
+
+SELECT Region, COUNT (SalesPrice) AS NoOfSalesTransactions FROM [dbo].[LITA CAPSTONE PROJECT 11]
+GROUP BY Region
+
+SELECT Product, MAX (SalesPrice) AS HighestSellingProduct FROM [dbo].[LITA CAPSTONE PROJECT 11]
+GROUP BY Product
+ORDER BY 2 DESC
+
+SELECT OrderDate FROM [dbo].[LITA CAPSTONE PROJECT 11]
+WHERE YEAR (OrderDate) in (2024) 
+
+SELECT Month(OrderDate) AS Month, SUM(SalesPrice) AS MonthlySalesTotal
+FROM [dbo].[LITA CAPSTONE PROJECT 11] WHERE YEAR(OrderDate) = 2024
+GROUP BY Month(OrderDate)
+ORDER BY Month
+
+SELECT Top (5) Customer_Id,
+ SUM(SalesPrice) AS TotalPurchaseAmount FROM [dbo].[LITA CAPSTONE PROJECT 11]
+GROUP BY Customer_Id
+ORDER BY 2 Desc
+
+SELECT Region, SUM(SalesPrice) AS RegionTotalSales,
+FORMAT(ROUND((SUM(SalesPrice) / CAST((SELECT SUM(SalesPrice) FROM [dbo].[LITA CAPSTONE PROJECT 11]) AS DECIMAL(10,2)) * 100), 1), '0.#') 
+AS PercentageOfTotalSales
+FROM [dbo].[LITA CAPSTONE PROJECT 11]
+GROUP BY Region
+ORDER BY 3 DESC
+
+SELECT Product FROM [dbo].[LITA CAPSTONE PROJECT 11]
+GROUP BY Product
+HAVING SUM(CASE 
+WHEN OrderDate BETWEEN '2024-06-01' AND '2024-08-31' 
+THEN 1 ELSE 0 END) = 0
+~~~
+
+
+~~~ 
