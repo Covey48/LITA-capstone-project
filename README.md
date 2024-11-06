@@ -28,3 +28,15 @@ In the Initial phase of Data cleaning and preparation, I performed the following
 3.  Data cleaning and formatting
 4. Removing duplicates
 5. Data importation into SQL
+
+###  	EXPLORATORY DATA ANALYSIS
+---
+This involved the exploring of the data to answer some questions about the data such as;
+- total sales by product, region, and month.
+- the highest-selling product by total sales value.
+- the  total revenue per product.
+- the monthly sales totals for the current year.
+- the top 5 customers by total purchase amount.
+- the percentage of total sales contributed by each region.
+- identify products with no sales in the last quarter.
+
