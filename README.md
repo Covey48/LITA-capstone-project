@@ -103,4 +103,5 @@ I used pivot tables and charts to summarize total sales by product, region, and 
 
 ![image alt](https://github.com/Covey48/LITA-capstone-project/blob/6aa2c0e8eb1216c6943b5cadaa19b05eee9ad7b3/Screenshot%20(11).png)
 
+![image alt](https://github.com/Covey48/LITA-capstone-project/blob/44fddc97fd3d4f6150fe1650491c407d17251a6c/LITA%20PICTURE%20POWERBI.png)
 
